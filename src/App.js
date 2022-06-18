@@ -1,23 +1,13 @@
 
 import './App.css';
-import Login from "./components/Login/Login";
-import SignIn from './components/Login/SignIn/SignIn';
-
-function App() {
+import LandingPage from "./components/LandingPage/LandingPage"
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src="" />
-        <p>
-          This is my home page.
-        </p>
-
-        <Login onClick="" />
-        <SignIn />
-      </header>
+      <LandingPage />
 
     </div>
   );
-}
+};
 
 export default App;
